@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(43, 43, 43);
+}
+
+.logo {
+  margin: auto;
+  text-align: center;
+}
+
+.logo img{
+  width: 80%;
+}
+
+.externalLink {
+  word-wrap: break-word;
+}
+
+.card-image {
+  height: 300px; 
+  background-position: center; 
+  background-size: cover; 
+  text-align:right;
+}
+
+.methodRow {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 20px auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin: auto;
+    text-align: center;
+  }
+  .logo img{
+    width: 100%;
+  }
+
+  .methodRow {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .btnRow {
+    flex-flow: row wrap;
+  }
+}
